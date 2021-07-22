@@ -15,9 +15,12 @@ class Geckos extends Scene3D {
   }
 
   geckos() {
-    const channel = geckos({url: 'http://googleexxxx.com', port: 8080})
+    //@ts-ignore
+    const channel = geckos()
 
+    //@ts-ignore
     channel.onConnect(error => {
+      console.log('connected')
       if (error) {
         console.error(error.message)
         return

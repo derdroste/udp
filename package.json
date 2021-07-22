@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@enable3d/ammo-on-nodejs": "^0.18.0",
-    "@geckos.io/client": "^1.4.3",
-    "@geckos.io/server": "^1.4.3",
+    "@geckos.io/client": "^1.7.1",
+    "@geckos.io/server": "^1.7.1",
     "enable3d": "^0.18.0",
     "express": "^4.17.1",
     "http": "0.0.1-security",
