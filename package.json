@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
     "dev": "npm-run-all --parallel dev:*",
     "dev:webpack-client": "webpack-dev-server --config webpack.client.js",
     "dev:webpack-server": "webpack --config webpack.server.js --watch",
