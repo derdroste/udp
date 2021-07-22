@@ -1,4 +1,4 @@
-//require('./dist/server/bundle.js')
+require('./dist/server/bundle.js')
 
 const express = require('express')
 const app = express()
