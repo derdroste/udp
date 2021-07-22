@@ -3,7 +3,7 @@ import geckos, { iceServers, ServerChannel} from "@geckos.io/server";
 import {Player} from "../players/Player";
 
 export const io = geckos({ iceServers })
-io.listen()
+io.listen(8080)
 
 export class Battle {
     private physics = new Physics()
