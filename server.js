@@ -9,6 +9,6 @@ app.get('/', (req, res) => res.redirect('./index.html'))
 
 app.use(express.static('./dist/client'))
 
-server.listen(port, () =>
+app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 )
